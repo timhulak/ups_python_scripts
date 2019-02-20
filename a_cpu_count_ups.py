@@ -16,7 +16,6 @@ import datetime as dt
 #Variables
 sort = 'Morning'
 current_time = dt.datetime.now()
-crystal = "Crystal McCuen"
 tim = "Tim Hulak"
 
 #Lists
@@ -43,14 +42,13 @@ hot_cpu = cpu - cold_cpu
 #output
 print(f'{sort} Sort Daily Recap {current_time.strftime("%m-%d-%Y")}\n')
 print(f'Total: {total}')
-print(f'CPU: {cpu}')
-print(f'\tHot CPU: {hot_cpu}')
-print(f'\tCold CPU: {cold_cpu}')
-print(f'Basin: {basin}')
-print(f'Recycle: {recycle}')
-print(f'Vegas: {vegas}')
-print(f'WAHCA: {wahca}')
-print(f"\n- {crystal}")
-#print(f"\n- {tim}"")
+print(f'Planned: {cpu}')
+print(f'\tOther Planned: {hot_cpu}')
+print(f'\tUnplanned: {cold_cpu}')
+print(f'Type 1: {basin}')
+print(f'Type 2: {recycle}')
+print(f'Type 3: {vegas}')
+print(f'Type 4: {wahca}')
+print(f"\n- {tim}")
 
 

@@ -1,4 +1,5 @@
 # Logistics Terminal Applications. 
+#### With python installed, run the scripts in the terminal. 
 
 ## a_estimate_loads.py
 ### In order to track Packages Per Trailer, I wrote a Python app that asks the user for some input: 
@@ -16,6 +17,13 @@
 
 ## a_cpu_count_ups.py
 ### An app to help tally the total processed load types for the end of the day report. Using the 'dt.datetime.now()' function after 'import datetime as dt', the date will update automatically. 
+### The app calculates:
+- Current Date
+- Total Pacakges processed
+- Planend Packages processed
+- Unplanned Packages Processed
+- Types of Unplanned Packages processed
+- Signature at the end 
 ### In order to change the values, one must edit the lists in the script manually. 
 
 ### Ex.
